@@ -19,8 +19,7 @@
   * Download全部文件，将vs项目文件Encryption_MFC.sln关于openCV的配置，例如包含目录等修改为自身openCV所在的目录。关于openCV的配置，在此不再赘述
   * 主目录提供了一张标准测试图，编译运行之后，可直接使用该图进行测试![Lena_512*512](https://github.com/XiaoRing0/Hyperchaotic_ImageEncryption/raw/master/lena512color.tiff"lena_512*512")
 * 若用户想自行构建MFC项目，配置openCV，那理解代码即可
-  * 该项目核心代码为`Hyperchaotic_ImageEncryption/Encryption_MFC/`目录下，三个核心文件: `Encryption_MFC.h`, `Encryption_MFCDlg.h`,
-    `Encryption_MFCDlg.cpp`
+  * 该项目核心代码为`Hyperchaotic_ImageEncryption/Encryption_MFC/`目录下，三个核心文件: `Encryption_MFC.h`, `Encryption_MFCDlg.h`,`Encryption_MFCDlg.cpp`
   * `Encryption_MFC.h` 包含了openCV头文件，宏定义
     * 如
       ```cpp
