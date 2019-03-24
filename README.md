@@ -18,7 +18,7 @@ OpenCV库版本为: opencv-3.4.1-vc14_vc15
 * 若用户想使用该项目直接编译
   * Download全部文件，将vs项目文件Encryption_MFC.sln关于openCV的配置，例如包含目录等修改为自身openCV所在的目录。关于openCV的配置，在此不再赘述
   * 主目录提供了一张标准测试图
-![](https://github.com/XiaoRing0/Hyperchaotic_ImageEncryption/raw/master/lena512color.tiff)
+![Image text](https://github.com/XiaoRing0/Hyperchaotic_ImageEncryption/raw/master/lena512color.tiff)
 
 将源码与实例图像文件下载，编译运行即可（图像可替换其他，修改相应代码路径即可）
 
