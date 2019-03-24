@@ -1,0 +1,13 @@
+﻿  Encryption_MFCDlg.cpp
+c:\users\xiaotao min\source\repos\encryption_mfc\encryption_mfc\encryption_mfcdlg.cpp(807): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\xiaotao min\source\repos\encryption_mfc\encryption_mfc\encryption_mfcdlg.cpp(808): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\xiaotao min\source\repos\encryption_mfc\encryption_mfc\encryption_mfcdlg.cpp(817): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+c:\users\xiaotao min\source\repos\encryption_mfc\encryption_mfc\encryption_mfcdlg.cpp(818): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+c:\users\xiaotao min\source\repos\encryption_mfc\encryption_mfc\encryption_mfcdlg.cpp(819): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+c:\users\xiaotao min\source\repos\encryption_mfc\encryption_mfc\encryption_mfcdlg.cpp(820): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+  正在生成代码
+  1 of 848 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Encryption_MFC.vcxproj -> C:\Users\Xiaotao Min\Source\Repos\encryption_MFC\x64\Release\Encryption_MFC.exe
