@@ -1,7 +1,7 @@
 # Hyperchaotic_ImageEncryption
 * 基于openCV与MFC的超混沌图像加密软件，openCV提供图像读取、存储功能，通过MFC构建人机交互界面
 
-* 编译环境为Visual Studio Community 2017 版本号: 15.9.8
+* 编译环境为Visual Studio Community 2017 版本号: `15.9.8`
 
 * OpenCV库版本为: `opencv-3.4.1-vc14_vc15`
 
@@ -23,7 +23,34 @@
   * 该项目核心代码为`Hyperchaotic_ImageEncryption/Encryption_MFC/`目录下，三个核心文件: `Encryption_MFC.h`, `Encryption_MFCDlg.h`,
   `Encryption_MFCDlg.cpp`
   * `Encryption_MFC.h` 包含了openCV头文件，宏定义
+    *```cpp
+    #include <opencv2/opencv.hpp>
+    #include <opencv2/core/core.hpp>  
+    #include <opencv2/highgui/highgui.hpp>
+    ```
   * `Encryption_MFCDlg.h` 包含了对话框类中的图像数据成员变量、进度条成员变量、所有控件按钮的响应成员函数的声明及行变换的移位函数模板
+    *```cpp
+    public:
+    //原图、加密、解密图像数据
+    cv::Mat lena;
+    cv::Mat encryption_lena;
+    cv::Mat decryption_lena;
+    CProgressCtrl EnProgress;
+    CProgressCtrl DeProgress;
+    //缩放窗体链表
+    CList<CRect, CRect&> m_listRect;
+    //成员函数
+    afx_msg void DrawMat(cv::Mat & img, UINT nID);
+    afx_msg void OnBnClickedEncrypting();
+    afx_msg void OnBnClickedDecrypting();
+    afx_msg void EncrytingMat(cv::Mat & Enimg, const double Enx_chaos[], const double Eny_chaos[]);
+    afx_msg void DecrytingMat(cv::Mat & Deimg, const double Enx_chaos[], const double Eny_chaos[]);
+    afx_msg void OnBnClickedSaveEncrypting();
+    afx_msg void OnBnClickedSaveDecrypting();
+    afx_msg void OnBnClickedLoadencryption2enWindow();
+    afx_msg void OnSize(UINT nType, int cx, int cy);
+    afx_msg void OnBnClickedUnchangedChooseImg();
+    ```
   * `Encryption_MFCDlg.cpp` 包含了默认的MFC初始化函数以及所有成员函数的实现、相关按钮的逻辑控制
 * 若用户想直接使用该软件，不想繁琐地配置openCV
   * 直接将openCV的动态链接库复制到`C:\Windows\System32`目录下
