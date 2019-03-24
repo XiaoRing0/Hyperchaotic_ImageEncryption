@@ -58,6 +58,7 @@
   * 直接将openCV的动态链接库复制到`C:\Windows\System32`目录下
   * 受于GitHub文件大小限制，两个动态链接库的网盘地址为：[opencv_world341.dll, opencv_world341d.dll](https://pan.baidu.com/s/11jDEUONrjLs1iKbO1iwVxg)
   * 提取码: `ejgj`
+  * 拷贝完openCV的动态链接库之后，`Hyperchaotic_ImageEncryption/x64/Debug/`与`Hyperchaotic_ImageEncryption/x64/Release/`目录下有两个可执行文件，对应于Debug版和Release版，推荐使用Release版，Release代码更小,执行更快
 
 
 ## 算法原理
