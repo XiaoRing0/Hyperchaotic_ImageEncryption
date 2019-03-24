@@ -18,19 +18,19 @@
 * 若用户想使用该项目直接编译
   * Download全部文件，将vs项目文件Encryption_MFC.sln关于openCV的配置，例如包含目录等修改为自身openCV所在的目录。关于openCV的配置，在此不再赘述
   * 主目录提供了一张标准测试图，编译运行之后，可直接使用该图进行测试
-![Image text](https://github.com/XiaoRing0/Hyperchaotic_ImageEncryption/raw/master/lena512color.tiff"lena_512*512")
+![Lena_512*512](https://github.com/XiaoRing0/Hyperchaotic_ImageEncryption/raw/master/lena512color.tiff"lena_512*512")
 * 若用户想自行构建MFC项目，配置openCV，那理解代码即可
   * 该项目核心代码为`Hyperchaotic_ImageEncryption/Encryption_MFC/`目录下，三个核心文件: `Encryption_MFC.h`, `Encryption_MFCDlg.h`,
   `Encryption_MFCDlg.cpp`
   * `Encryption_MFC.h` 包含了openCV头文件，宏定义
-    * 如下
+    * 如
     ```cpp
     #include <opencv2/opencv.hpp>
     #include <opencv2/core/core.hpp>  
     #include <opencv2/highgui/highgui.hpp>
     ```
   * `Encryption_MFCDlg.h` 包含了对话框类中的图像数据成员变量、进度条成员变量、所有控件按钮的响应成员函数的声明及行变换的移位函数模板
-    * 如: 
+    * 如
     ```cpp
     public:
     //原图、加密、解密图像数据
