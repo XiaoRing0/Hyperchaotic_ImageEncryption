@@ -23,7 +23,8 @@
   * 该项目核心代码为`Hyperchaotic_ImageEncryption/Encryption_MFC/`目录下，三个核心文件: `Encryption_MFC.h`, `Encryption_MFCDlg.h`,
   `Encryption_MFCDlg.cpp`
   * `Encryption_MFC.h` 包含了openCV头文件，宏定义
-    * ```cpp
+    * 
+    ```cpp
     #include <opencv2/opencv.hpp>
     #include <opencv2/core/core.hpp>  
     #include <opencv2/highgui/highgui.hpp>
