@@ -27,7 +27,7 @@ OpenCV库版本为: opencv-3.4.1-vc14_vc15
   * `Encryption_MFCDlg.cpp`包含了默认的MFC初始化函数以及所有成员函数的实现、相关按钮的逻辑控制
 * 若用户想直接使用该软件，不想繁琐地配置openCV
   * 直接将openCV的动态链接库复制到`C:\Windows\System32`目录下
-  * 受于GitHub文件大小限制，两个动态链接库的网盘地址为：[openCV](https://pan.baidu.com/s/11jDEUONrjLs1iKbO1iwVxg), 提取码：`ejgj`  
+  * 受于GitHub文件大小限制，两个动态链接库的网盘地址为：[opencv_world341.dll, opencv_world341d.dll](https://pan.baidu.com/s/11jDEUONrjLs1iKbO1iwVxg), 提取码：`ejgj`  
 
 
 ## 算法原理
