@@ -23,13 +23,13 @@
   * 该项目核心代码为`Hyperchaotic_ImageEncryption/Encryption_MFC/`目录下，三个核心文件: `Encryption_MFC.h`, `Encryption_MFCDlg.h`,
   `Encryption_MFCDlg.cpp`
   * `Encryption_MFC.h` 包含了openCV头文件，宏定义
-    *```cpp
+    * ```cpp
     #include <opencv2/opencv.hpp>
     #include <opencv2/core/core.hpp>  
     #include <opencv2/highgui/highgui.hpp>
     ```
   * `Encryption_MFCDlg.h` 包含了对话框类中的图像数据成员变量、进度条成员变量、所有控件按钮的响应成员函数的声明及行变换的移位函数模板
-    *```cpp
+    * ```cpp
     public:
     //原图、加密、解密图像数据
     cv::Mat lena;
