@@ -17,10 +17,17 @@ OpenCV库版本为: opencv-3.4.1-vc14_vc15
 ## 使用说明
 * 若用户想使用该项目直接编译
   * Download全部文件，将vs项目文件Encryption_MFC.sln关于openCV的配置，例如包含目录等修改为自身openCV所在的目录。关于openCV的配置，在此不再赘述
-  * 主目录提供了一张标准测试图
-![Image text](https://github.com/XiaoRing0/Hyperchaotic_ImageEncryption/raw/master/lena512color.tiff)
+  * 主目录提供了一张标准测试图，编译运行之后，可直接使用该图进行测试
+![Image text](https://github.com/XiaoRing0/Hyperchaotic_ImageEncryption/raw/master/lena512color.tiff"lena_512*512")
+* 若用户想自行构建MFC项目，配置openCV，那理解代码即可
+ * 该项目核心代码为`Hyperchaotic_ImageEncryption/Encryption_MFC/`目录下，三个核心文件：`Encryption_MFC.h`, `Encryption_MFCDlg.h`, `Encryption_MFCDlg.cpp`
+  * `Encryption_MFC.h`包含了openCV头文件，宏定义
+  * `Encryption_MFCDlg.h`包含了对话框类中的图像数据成员变量、进度条成员变量、所有控件按钮的响应成员函数的声明及行变换的移位函数模板
+  * `Encryption_MFCDlg.cpp`包含了默认的MFC初始化函数以及所有成员函数的实现、相关按钮的逻辑控制
+* 若用户想直接使用该软件，不想繁琐地配置openCV
+ * 直接将openCV的动态链接库复制到`C:\Windows\System32`目录下
+ * 受于GitHub文件大小限制，两个动态链接库的网盘地址为：[](https://pan.baidu.com/s/11jDEUONrjLs1iKbO1iwVxg), 提取码：`ejgj`  
 
-将源码与实例图像文件下载，编译运行即可（图像可替换其他，修改相应代码路径即可）
 
 ## 算法原理
 * 该算法的混沌序列有一定的数学背景，主要利用混沌的伪随机、非周期及确定性
