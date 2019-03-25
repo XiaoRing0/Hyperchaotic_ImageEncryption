@@ -1,9 +1,9 @@
 # Hyperchaotic_ImageEncryption
 * 基于openCV与MFC的超混沌图像加密软件，openCV提供图像读取、存储功能，通过MFC构建人机交互界面
 
-* 编译环境为Visual Studio Community 2017, 版本号：`15.9.8`
+* 编译环境为 Visual Studio Community 2017, 版本号 `15.9.8`
 
-* OpenCV库版本为：`opencv-3.4.1-vc14_vc15`
+* OpenCV库版本为 `opencv-3.4.1-vc14_vc15`
 
 ## 概览
 <!-- vim-markdown-toc GFM -->
