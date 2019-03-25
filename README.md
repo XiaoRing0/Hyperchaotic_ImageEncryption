@@ -1,9 +1,9 @@
 # Hyperchaotic_ImageEncryption
 * 基于openCV与MFC的超混沌图像加密软件，openCV提供图像读取、存储功能，通过MFC构建人机交互界面
 
-* 编译环境为Visual Studio Community 2017 版本号: `15.9.8`
+* 编译环境为Visual Studio Community 2017, 版本号：`15.9.8`
 
-* OpenCV库版本为: `opencv-3.4.1-vc14_vc15`
+* OpenCV库版本为：`opencv-3.4.1-vc14_vc15`
 
 ## 概览
 <!-- vim-markdown-toc GFM -->
@@ -16,7 +16,7 @@
 
 ## 使用说明
 * 若用户想使用该项目直接编译
-  * Download全部文件，将vs项目文件Encryption_MFC.sln关于openCV的配置，例如包含目录等修改为自身openCV所在的目录。关于openCV的配置，在此不再赘述
+  * Download全部文件，将vs项目文件`Encryption_MFC.sln`关于openCV的配置，例如包含目录等修改为自身openCV所在的目录。关于openCV的配置，在此不再赘述
   * 主目录提供了一张标准测试图，编译运行之后，可直接使用该图进行测试![Lena_512*512](https://github.com/XiaoRing0/Hyperchaotic_ImageEncryption/raw/master/lena512color.tiff"lena_512*512")
 * 若用户想自行构建MFC项目，配置openCV，那理解代码即可
   * 该项目核心代码为`Hyperchaotic_ImageEncryption/Encryption_MFC/`目录下，三个核心文件: `Encryption_MFC.h`,       `Encryption_MFCDlg.h`,`Encryption_MFCDlg.cpp`
@@ -31,7 +31,7 @@
     * 诸如
       ```cpp
       public:
-      /原图、加密、解密图像数据
+      //原图、加密、解密图像数据
       cv::Mat lena;
       cv::Mat encryption_lena;
       cv::Mat decryption_lena;
